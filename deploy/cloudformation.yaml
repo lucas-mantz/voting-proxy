@@ -140,7 +140,7 @@ Resources:
         - Key: voting-role
           Value: flask
 
-    FlaskInstance3:
+  FlaskInstance3:
     Type: AWS::EC2::Instance
     DependsOn: DbInstance
     Properties:
@@ -163,7 +163,7 @@ Resources:
         - Key: voting-role
           Value: flask
 
-    FlaskInstance4:
+  FlaskInstance4:
     Type: AWS::EC2::Instance
     DependsOn: DbInstance
     Properties:
@@ -186,7 +186,7 @@ Resources:
         - Key: voting-role
           Value: flask
 
-    FlaskInstance5:
+  FlaskInstance5:
     Type: AWS::EC2::Instance
     DependsOn: DbInstance
     Properties:
@@ -209,7 +209,7 @@ Resources:
         - Key: voting-role
           Value: flask
 
-    FlaskInstance6:
+  FlaskInstance6:
     Type: AWS::EC2::Instance
     DependsOn: DbInstance
     Properties:
